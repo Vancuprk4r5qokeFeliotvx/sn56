@@ -120,6 +120,6 @@ def modify_config(axolotl_config: dict, model_name: str, model_architecture: str
         axolotl_config["lora_target_linear"] = True
     
     if config.get("distributed", "ddp") == "ds":
-        axolotl_config["deepspeed"] = "/workspace/axolotl/scripts/yml_config/zero3.json"
+        axolotl_config["deepspeed"] = "/workspace/axolotl/scripts/yml_config/zero2.json"
         
         
